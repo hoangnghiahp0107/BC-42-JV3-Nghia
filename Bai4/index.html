@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bai4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <div class="card-header bg-success text-white text-center">
+                        Đoán hình tam giác
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <input class="form-control" placeholder="Nhập độ dài canh 1" id="a"/>
+                            <br>
+                            <input class="form-control" placeholder="Nhập độ dài canh 2" id="b"/>
+                            <br>
+                            <input class="form-control" placeholder="Nhập độ dài canh 3" id="c"/>
+                            <br>
+                            <button id="d" type="button" class="btn btn-success">Dự đoán</button>
+                            <div  style="display: none"
+                    id="result-wrapper">
+                            <br>
+                            <p id="result" class="alert-success"></p>              
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </form>
+    <script src="index.js"></script>
+  </body>
+</html>

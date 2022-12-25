@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bai2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <form>
+        <div class="container">
+            <div class="row">
+               <div class="card">
+                <div class="card-header bg-success text-white text-center">Chương trình "Chào hỏi"</div>
+                <div class="card-body">
+                   <form>
+                    <select id="area">
+                        <option value="X">Chọn thành viên</option>
+                        <option value="A">Bố</option>
+                        <option value="B">Mẹ</option>
+                        <option value="C">Anh Trai</option>
+                        <option value="D">Em Gái</option>
+                       </select>
+                       <br>
+                       <br>
+                       <button id="calculate" class="btn btn-success" type="button">Gửi lời chào</button>
+                       <div  style="display: none"
+                        id="result-wrapper">
+                        <br>
+                       <p id="result" class="alert-success"></p>
+                   </form>
+                </div>
+               </div> 
+            </div>
+        </div>
+
+
+        <script src="index.js"></script>
+      </form>
+  </body>
+</html>
